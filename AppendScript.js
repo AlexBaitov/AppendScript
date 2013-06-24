@@ -32,7 +32,7 @@ function AppendScript(options){
 		}
 	}).fail(function(){                     // файл не подгрузился (0)
 			options.error(0);
-		});
+	});
 
 	if (!options.src) {
 		DEF_script.reject();
